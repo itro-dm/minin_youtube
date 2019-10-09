@@ -1,1 +1,1 @@
-# minin_youtube
+# This repo is includes code of lessons from youtube 
