@@ -1,1 +1,1 @@
-# This repo is includes code of lessons from youtube 
+# This repo includes code of lessons from youtube 
