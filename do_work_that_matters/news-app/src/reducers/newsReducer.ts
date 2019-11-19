@@ -1,7 +1,7 @@
-import { StoreStructure } from '../entities/StoreStructure';
+import { StoreStructure } from '../entities/StoreStucture';
 import { Reducer } from 'redux';
-import { ActionTypeBase } from '../actions/actionTypes';
-import { LOAD_NEWS, ADD_NEWS } from '../actions/newsAction';
+import { ActionTypeBase } from '../actions/actionsType';
+import { LOAD_NEWS, ADD_NEWS } from '../actions/newsActions';
 const initState: StoreStructure = {
     articles: [],
     read: [],
@@ -20,6 +20,6 @@ export const newReducer: Reducer<any> = (state: StoreStructure, action: ActionTy
         default:
             return state;
     }
-}
+};
 
 export default newReducer;
